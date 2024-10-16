@@ -297,7 +297,8 @@ Set(
         JobTitle: "";
         Picture: User().Image
     }
-);;```
+)
+```
 
 ![{C78C92BF-70DF-4636-945E-49AAF77E650C}](https://github.com/user-attachments/assets/bc62a9ff-b06b-4102-b485-9091e5f34ad3)
 ![{EFA0F8D6-50E0-4D7C-9FA3-B6CDEFF6823F}](https://github.com/user-attachments/assets/8ba7c9af-ac0d-4fd1-aef4-51bcce20146b)
@@ -305,7 +306,7 @@ Set(
 **Note**:After pasting the code, select App again, right-click and select “Run OnStart” to execute the pasted code.
 
 ### Last Step
-
+To add the menu, go to “Insert” in the top bar > Customizable > Select the created component.
 ![{1E605478-33EA-4DDF-8373-8CB91466543F}](https://github.com/user-attachments/assets/d2951e04-732c-406b-9c34-2e32e49f685e)
 
 
