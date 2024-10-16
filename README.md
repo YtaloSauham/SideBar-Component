@@ -311,7 +311,7 @@ To add the menu, go to “Insert” in the top bar > Customizable > Select the c
 
 ![{8DE551DE-A110-402D-94A5-4392B635C5E3}](https://github.com/user-attachments/assets/d2dbaa20-58a0-4c32-8501-553f57067d3b)
 
-## Questions 1
+## Questions
 To customize the color of the elements, use the variable **varConfigColor**.
 ```
 Set(
