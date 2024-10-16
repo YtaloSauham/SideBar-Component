@@ -309,5 +309,28 @@ Set(
 To add the menu, go to “Insert” in the top bar > Customizable > Select the created component.
 ![{1E605478-33EA-4DDF-8373-8CB91466543F}](https://github.com/user-attachments/assets/d2951e04-732c-406b-9c34-2e32e49f685e)
 
+![{8DE551DE-A110-402D-94A5-4392B635C5E3}](https://github.com/user-attachments/assets/d2dbaa20-58a0-4c32-8501-553f57067d3b)
 
+## Questions 1
+To customize the color of the elements, use the variable **varConfigColor**.
+```
+Set(
+    varConfigColors;
+    {
+        NavBar_Container_Color: "#2b3d41";
+        NavBar_Bottom_Text_Colors: "#FFFFFF";
+        NavBar_Icones_Colors: "#FFFFFF";
+        NavBar_Selector:"#FFFFFF"
+    }
+);;
+```
 
+To add more elements to the menu, use the **colNavBarConfigs** collection,adding +1 to the ID. Just follow the template below:
+```
+ {
+        MenuLabel: "Screen3";
+        MenuIcon: Icon.AddDocument;
+        MenuNavigate: App.ActiveScreen; 
+        MenuID: 3
+    }
+```
